@@ -1,2 +1,2 @@
-// Platz für Ihre JavaScript-Logik
-console.log('JavaScript verbunden!');
+
+// Hier beginnt Ihre JavaScript-Reise!

@@ -1,14 +1,21 @@
-# Task 2: DOM-Manipulation
+# 🧩 Aufgabe 2: DOM-Manipulation
 
-Fügen Sie neue Inhalte in das `div` mit der ID `weatherData` hinzu, wenn der Button geklickt wird.
+In dieser Aufgabe lernen Sie, wie Sie die Webseite mit JavaScript **verändern** können.
 
-### Anforderungen:
-- Nutzen Sie `innerHTML` oder `createElement`, um Inhalte hinzuzufügen.
-- Zeigen Sie eine Beispielnachricht wie "Wetterdaten werden geladen..." an.
+---
 
-### Beispiel:
+## 🛠️ Aufgabe
+
+Wenn der Button mit der ID `domButton` geklickt wird, soll im `div` mit der ID `weatherData` der Text  
+„Wetterdaten werden geladen…“ erscheinen.
+
+---
+
+## 🧪 Beispiel
+
 ```javascript
-document.getElementById('fetchWeather').addEventListener('click', function() {
+document.getElementById('domButton').addEventListener('click', function() {
     document.getElementById('weatherData').innerHTML = '<p>Wetterdaten werden geladen...</p>';
 });
 ```
+

@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wetter-App</title>
-</head>
-<body>
+    <title>JavaScript Aufgaben</title>
+    <style>
+        body { font-family: sans-serif; padding: 2rem; }
+        button { margin: 1rem 0; }
+        #weatherData, #apiOutput { margin-top: 1rem; border: 1px solid #ccc; padding: 1rem; }
+    </style>
+  </head>
+  <body>
     <header>
-        <h1>Interaktive Wetter-App</h1>
+      <h1>JavaScript Aufgaben</h1>
+      <h2>Interaktive Wetter-App</h2>
     </header>
     <main>
-        <button id="fetchWeather">Wetterdaten abrufen</button>
-        <div id="weatherData"></div>
+
+      <h2>1. Einführung</h2>
+      <button id="introButton">Klick mich!</button>
+
+      <h2>2. DOM-Manipulation</h2>
+      <button id="domButton">Wetterdaten anzeigen</button>
+      <div id="weatherData"></div>
+
+      <h2>3. API-Aufruf</h2>
+      <button id="apiButton">Live-Wetter abrufen</button>
+      <div id="apiOutput"></div>
+
+
     </main>
     <script src="scripts/app.js"></script>
-</body>
+  </body>
 </html>
