@@ -6,18 +6,36 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: hsl(303, 38%, 48%);
+    color: #df65ca;
     padding: 1em;
     text-align: center;
 }
 
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+    color:hsl(303, 52%, 24%)
+
+}
+
+
 footer {
-    background-color: #333;
-    color: white;
+    background-color: hsl(303, 38%, 48%);
+    color: #df65ca;
     padding: 0.5em;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
+
+.bild-angepasst {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+}
+
+.Schrift-schön {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
