@@ -6,26 +6,28 @@ body {
 }
 
 header {
-    background-color: hsl(303, 38%, 48%);
-    color: #df65ca;
+    background-color: hsl(208, 96%, 70%);
+    color: #307eb5;
     padding: 1em;
     text-align: center;
+}
+
+nav {
+    background-color: #307eb5;
 }
 
 main {
     padding-left: 15px;
     padding-right: 15px;
     color:hsl(303, 52%, 24%)
-
 }
 
 
 footer {
-    background-color: hsl(303, 38%, 48%);
-    color: #df65ca;
+    background-color: hsl(208, 96%, 70%);
+    color: #307eb5;
     padding: 0.5em;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -38,4 +40,31 @@ footer {
 }
 
 .Schrift-schön {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+.nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    text-decoration: none;
+    font-weight: bold; 
+    color:rgb(173, 209, 241)
+}
+
+.footer {
+    color: #307eb5;
+}
+
+.route {
+    border-bottom: 1px solid hsl(303, 52%, 24%);
+    border-bottom-color:hsl(303, 52%, 24%);
+    
+}
+
+.liste {
+    margin-top: 20px;
+}
